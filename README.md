@@ -1,4 +1,5 @@
 # PHP-MySQL-Login-System
+Note: Before rening docker-compose 
 User login and registration system built using PHP and MySQL .
 
 **Live Project URL -** [PHP-MySQL-Login-System](https://live-demo97.000webhostapp.com/)
