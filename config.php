@@ -1,8 +1,8 @@
 <?php
-define("DB_SERVER", "db");
+define("DB_SERVER", "localhost");
 define("DB_USERNAME", "root");
 define("DB_PASSWORD", "");
-define("DB_NAME", "test");
+define("DB_NAME", "registered");
 
 # Connection
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
@@ -11,3 +11,4 @@ $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 if (!$link) {
   die("Connection failed: " . mysqli_connect_error());
 }
+?>
